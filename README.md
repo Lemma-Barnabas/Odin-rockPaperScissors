@@ -2,7 +2,7 @@
 
 This is a simple rock paper scissors game. you can choose from paper, rock , or scissors. The hirarchy of each sign is described by the image below. The arrows shows dominance over the pointed direction.
 
-![rockpaperscissors image](rockpaperscissors.png)
+![rockpaperscissors image](./images/rockpaperscissors.png)
 
 ## This game is written only in html and javascript
 
