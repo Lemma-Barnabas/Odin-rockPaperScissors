@@ -13,17 +13,17 @@ one=(playerSelction, computerSelection)=>{
          switch (true) {
              case small===computerSelection:
                  {
-                 console.log(`even `);}
+                 console.log(`-> even `);}
                 break; 
              case small==="rock"&& computerSelection=="scissors":
              case small==="scissors" && computerSelection=="paper":
              case small==="paper" && computerSelection=="rock":
                  userScore++
-                 console.log(`Nice Job!! \n ${playerSelction} beates ${computerSelection}.`);
+                 console.log(`-> Nice Job!! \n ${playerSelction} beates ${computerSelection}.`);
                  break;
                  default:
                 { comScore++
-               console.log(`OOOPS!! \n ${computerSelection}  beats ${playerSelction}.`);
+               console.log(`-> OOOPS!! \n ${computerSelection}  beats ${playerSelction}.`);
                 }}
          }
          // function to excute function one five times
